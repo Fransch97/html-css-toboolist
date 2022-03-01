@@ -5,13 +5,32 @@ GENERAL
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Roboto', sans-serif;;
 }
 section{
     margin: 0 auto;
 
-    min-width: 300px;
+    min-width: 475px;
   /* max-width: 1400px; */
 }
+main{
+    background-color:#f6f8f9 ;
+    padding: 30px;
+}
+.containermain{
+    margin-top: 20px;
+    margin: auto;
+}
+.main{
+    background-color: white ;
+}
+.arrow{
+    font-size: 15px;
+}
+
+/*
+UTILITY
+*/
 
 /*
 HEADER
@@ -24,4 +43,91 @@ HEADER
 strong{
     font-size: 3rem;
     vertical-align:13px;
+}
+
+/*
+MAIN
+*/
+.main.header{
+padding: 20px;
+border-bottom:solid 2px #f6f8f9;
+}
+hr, .main{
+    max-width: 1000px;
+    min-width: 475px;
+}
+
+.main, p, .header a{
+    padding: 10px 0px;
+}
+
+.listitems{
+    margin-left: 80px;
+}
+
+.checkbutton{
+    /* background-color: red; */
+    display: inline-block;
+    padding: 4px 9px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+#checked{
+    background-color: #77A5EC;
+    color: white;
+}
+#non span{
+    padding: 4px 9px;
+    border-radius: 3px;
+    font-size: 13px;
+    border: solid 1px #C8CCD1;
+    color: #C8CCD1;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.ckeck::before{
+    padding: 2px;
+    font-size: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: 3px ;
+}
+.done::before{
+    color: green;
+    border: solid green 1px;
+    content: "\02714";
+    
+}
+.todo::before{
+    color: red;
+    border: solid red 1px;
+    content: "\02715";
+    
+}
+.genere{
+    font-size: 11px;
+    padding: 6px 10px;
+    border-radius: 30px;
+    color: white;
+}
+.edtiorial{
+    background-color: #75A3E5;
+}
+.goals{
+    background-color: #9467DE;
+}
+.recruiting{
+    background-color: #87BFA8;
+}
+.mobile{
+    background-color: #DAA248;
+}
+.web{
+    background-color: #BD629E;
+}
+.sales{
+    background-color: #B3CC43;
 }
