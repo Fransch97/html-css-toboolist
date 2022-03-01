@@ -16,6 +16,7 @@ section{
 main{
     background-color:#f6f8f9 ;
     padding: 30px;
+    height: 85vh;
 }
 .containermain{
     margin-top: 20px;
@@ -24,10 +25,19 @@ main{
 .main{
     background-color: white ;
 }
+
 .arrow{
     font-size: 15px;
 }
-
+.main.list.bottom{
+    padding-bottom: 20px;
+}
+.spacefirst{
+    margin-top: 20px;
+}
+.spacelate{
+    margin-bottom: 30px;
+}
 /*
 UTILITY
 */
