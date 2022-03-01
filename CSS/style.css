@@ -24,8 +24,13 @@ main{
 }
 .main{
     background-color: white ;
-}
 
+}
+.bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
 .arrow{
     font-size: 15px;
 }
@@ -64,6 +69,8 @@ MAIN
 .main.header{
 padding: 20px;
 border-bottom:solid 2px #f6f8f9;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
 }
 hr, .main{
     max-width: 1000px;
