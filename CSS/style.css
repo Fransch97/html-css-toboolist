@@ -1,5 +1,27 @@
+/*
+GENERAL
+*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+section{
+    margin: 0 auto;
+
+    min-width: 300px;
+  /* max-width: 1400px; */
+}
+
+/*
+HEADER
+*/
+.logo-title{
+    
+    padding: 20px;
+    /* background-color: green; */
+}
+strong{
+    font-size: 3rem;
+    vertical-align:13px;
 }
